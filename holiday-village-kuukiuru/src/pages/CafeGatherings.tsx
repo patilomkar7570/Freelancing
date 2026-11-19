@@ -89,7 +89,7 @@ export const CafeGatherings: React.FC = () => {
           Planning a Milestone, Jubilee, or Corporate Retreat?
         </h3>
         <p className="text-sm text-nordic-snow/80 max-w-xl mx-auto font-light leading-relaxed">
-          Kuukiuru welcomes private gatherings of up to 40 people with tailored lodging, kota campfire dinners, and private sauna sessions.
+          Kuura Riverside Resort welcomes private gatherings of up to 40 people with tailored lodging, kota campfire dinners, and private sauna sessions.
         </p>
         <Link
           to="/reservations"

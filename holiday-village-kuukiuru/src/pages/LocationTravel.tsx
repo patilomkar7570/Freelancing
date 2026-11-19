@@ -29,7 +29,7 @@ export const LocationTravel: React.FC = () => {
           How to Find Us
         </h1>
         <p className="text-base sm:text-lg text-nordic-muted leading-relaxed">
-          Holiday Village Kuukiuru is situated along the scenic riverbanks of Kemijoki in Vuostimo, between Kemijärvi and Sodankylä, nestled close to the Pyhä and Luosto fells.
+          Kuura Riverside Resort is situated along the scenic riverbanks of Kemijoki in Finnish Lapland, nestled close to the Pyhä and Luosto fells.
         </p>
       </div>
 
@@ -92,8 +92,8 @@ export const LocationTravel: React.FC = () => {
         {/* Embedded Map Representation */}
         <div className="lg:col-span-7 rounded-3xl overflow-hidden border border-nordic-border shadow-md bg-nordic-surface relative min-h-[380px]">
           <iframe
-            title="Holiday Village Kuukiuru Map Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15418.805562768565!2d27.2458!3d66.8623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x442df15277873461%3A0x600b84742cb3a69!2sKuukiuruntie%2013%2C%2098360%20Kemij%C3%A4rvi%2C%20Finland!5e0!3m2!1sen!2sfi!4v1700000000000"
+            title="Kuura Riverside Resort Map Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15418.805562768565!2d27.2458!3d66.8623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x442df15277873461%3A0x600b84742cb3a69!2sKemij%C3%A4rvi%2C%20Finland!5e0!3m2!1sen!2sfi!4v1700000000000"
             className="w-full h-full border-0 absolute inset-0 filter saturate-[0.85] contrast-[1.05]"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -118,7 +118,7 @@ export const LocationTravel: React.FC = () => {
               By Train (Kemijärvi Station)
             </h3>
             <p className="text-xs text-nordic-muted leading-relaxed">
-              Direct overnight VR sleeper trains operate daily from Helsinki to Kemijärvi railway station (approx. 11.5 hours). Kuukiuru is located 30 km north of the station.
+              Direct overnight VR sleeper trains operate daily from Helsinki to Kemijärvi railway station (approx. 11.5 hours). The resort is located 28 km from the station.
             </p>
             <div className="text-[11px] font-mono text-nordic-pine">
               Distance: 30 km (~25 min drive)

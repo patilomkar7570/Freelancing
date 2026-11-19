@@ -28,7 +28,7 @@ export const ExperiencesWinter: React.FC = () => {
             Snow, Solitude & Arctic Fells
           </h1>
           <p className="text-base sm:text-lg text-nordic-muted leading-relaxed max-w-3xl">
-            Winter at Kuukiuru is defined by profound stillness. Snow blankets the pine forest, the Kemijoki River freezes into a wide pathway of ice, and the clean northern air refreshes mind and body.
+            Winter at Kuura is defined by profound stillness. Snow blankets the pine forest, the Kemijoki River freezes into a wide pathway of ice, and the clean northern air refreshes mind and body.
           </p>
         </div>
 

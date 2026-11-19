@@ -11,10 +11,10 @@ export const Privacy: React.FC = () => {
           Transparency & Data Protection
         </div>
         <h1 className="font-serif text-4xl sm:text-5xl font-normal text-nordic-charcoal">
-          Privacy Notice & Concept Demonstration Policy
+          Privacy Notice & Demonstration Policy
         </h1>
         <p className="text-sm text-nordic-muted">
-          Last revised: November 2026 · Independent Redesign Proposal by NOVA Digital Studio
+          Last revised: November 2026 · Hospitality Design Showcase by NOVA Digital Studio
         </p>
       </div>
 
@@ -25,7 +25,7 @@ export const Privacy: React.FC = () => {
             1. Nature of this Website
           </h2>
           <p className="text-nordic-muted">
-            This website is an independent architectural redesign and user experience demonstration crafted by <strong>NOVA Digital Studio</strong>. It is not the official website of Holiday Village Kuukiuru and is not commercially affiliated with, contracted by, or endorsed by Holiday Village Kuukiuru or its proprietors.
+            This website is an independent architectural redesign and user experience demonstration crafted by <strong>NOVA Digital Studio</strong>. <strong>Kuura Riverside Resort</strong> is a fictional brand concept created to showcase contemporary Scandinavian digital hospitality, fluid responsive design, and visual storytelling.
           </p>
         </section>
 
@@ -38,7 +38,7 @@ export const Privacy: React.FC = () => {
           </p>
           <ul className="list-disc pl-5 space-y-1.5 text-nordic-muted">
             <li>No guest details, dates, or contact numbers are transmitted to external servers.</li>
-            <li>No personal inquiries are forwarded to Holiday Village Kuukiuru.</li>
+            <li>No personal inquiries or reservations are processed or stored.</li>
             <li>No advertising trackers, invasive profiling cookies, or third-party pixels are utilized.</li>
           </ul>
         </section>
@@ -48,16 +48,16 @@ export const Privacy: React.FC = () => {
             3. Search Engine Directives
           </h2>
           <p className="text-nordic-muted">
-            To prevent confusion with the official operating business, this concept website deploys strict <code>noindex, nofollow</code> robot meta directives and standard HTTP disclaimers.
+            To maintain its status as an independent demonstration concept, this website deploys strict <code>noindex, nofollow</code> robot meta directives and standard HTTP disclaimers.
           </p>
         </section>
 
         <section className="space-y-3">
           <h2 className="font-serif text-2xl font-normal text-nordic-charcoal">
-            4. Official Bookings and Queries
+            4. Inquiries & Feedback
           </h2>
           <p className="text-nordic-muted">
-            To make an actual reservation at Holiday Village Kuukiuru, guests should contact the property directly via their verified telephone channels (+358 400 199 184) or official email (kuukiuru@gmail.com).
+            For inquiries regarding digital design, web development, or creative direction, please contact NOVA Digital Studio.
           </p>
         </section>
 

@@ -69,12 +69,12 @@ export const Contact: React.FC = () => {
           <div className="space-y-2">
             <div className="flex items-center justify-between">
               <span className="font-mono text-xs uppercase tracking-widest text-nordic-pine font-medium">
-                Official Property Directory
+                Resort Directory
               </span>
-              <VerificationBadge status="verified_from_official_records" />
+              <VerificationBadge status="verified_from_official_records" customText="Concept Directory" />
             </div>
             <h2 className="font-serif text-3xl font-normal text-nordic-charcoal">
-              Holiday Village Kuukiuru
+              {BUSINESS_CONFIG.name}
             </h2>
           </div>
 
@@ -158,7 +158,7 @@ export const Contact: React.FC = () => {
                 Message Validated
               </h4>
               <p className="text-xs text-nordic-muted max-w-md mx-auto leading-relaxed">
-                This is a website redesign concept demonstration by NOVA Digital Studio. No message has been transmitted to Holiday Village Kuukiuru.
+                This is a website redesign concept demonstration by NOVA Digital Studio. No message has been transmitted.
               </p>
               <button
                 onClick={() => {
@@ -242,7 +242,7 @@ export const Contact: React.FC = () => {
           )}
 
           <div className="p-4 rounded-xl bg-nordic-surface text-[11px] text-nordic-muted leading-relaxed">
-            <strong>Concept Transparency:</strong> Holiday Village Kuukiuru has not authorized this proposal to receive guest communications. To contact the property directly, please use the official telephone numbers or email listed above.
+            <strong>Concept Transparency:</strong> Kuura Riverside Resort is an independent hospitality demonstration project by NOVA Digital Studio. The forms and information displayed here are simulated representations.
           </div>
         </div>
 

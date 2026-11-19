@@ -17,7 +17,7 @@ interface RoomWing {
 const ROOM_WINGS: RoomWing[] = [
   {
     id: 'gf-right',
-    name: 'Ground Floor — Right Wing Suite',
+    name: 'Riverside Family Suite',
     level: 'Ground Floor',
     areaM2: 55,
     capacity: '5 adults + 2 children',
@@ -29,11 +29,11 @@ const ROOM_WINGS: RoomWing[] = [
       'Electric underfloor heating',
       'Spacious wardrobe & TV-set'
     ],
-    historicalRange: '95€ – 170€'
+    historicalRange: 'Contact for rates'
   },
   {
     id: 'ff-left',
-    name: 'First Floor — Left Wing Apartment',
+    name: 'Woodland Loft Suite',
     level: 'First Floor',
     areaM2: 42,
     capacity: '4 adults + 2 children',
@@ -45,13 +45,13 @@ const ROOM_WINGS: RoomWing[] = [
       'Television & comfortable lounge seating',
       'Quiet top-floor woodland aspect'
     ],
-    historicalRange: '80€ – 140€'
+    historicalRange: 'Contact for rates'
   },
   {
     id: 'ff-right',
-    name: 'First Floor — Right Wing River Suite',
+    name: 'Riverside Twin Suite',
     level: 'First Floor',
-    areaM2: 23,
+    areaM2: 24,
     capacity: '2 adults + 1 child',
     rooms: '1 room, private lavatory, shower',
     features: [
@@ -60,22 +60,22 @@ const ROOM_WINGS: RoomWing[] = [
       'Private en-suite shower & lavatory',
       'Television and cozy reading armchairs'
     ],
-    historicalRange: '70€ – 110€'
+    historicalRange: 'Contact for rates'
   },
   {
     id: 'gf-left',
-    name: 'Ground Floor — Left Wing Budget Room',
+    name: 'Compact Forest Base',
     level: 'Ground Floor',
-    areaM2: 6,
+    areaM2: 12,
     capacity: '2 persons',
     rooms: '1 compact room, shared use shower & lavatory',
     features: [
       'Private washstand inside room',
       'Wardrobe for storage',
       'Television',
-      'Shared access to main building modern shower & lavatory'
+      'Shared access to main lodge modern shower & lavatory'
     ],
-    historicalRange: '45€ – 60€'
+    historicalRange: 'Contact for rates'
   }
 ];
 
@@ -99,15 +99,15 @@ export const AccommodationRooms: React.FC = () => {
         <div className="lg:col-span-8 space-y-4">
           <div className="flex items-center gap-3">
             <span className="font-mono text-xs uppercase tracking-widest text-nordic-cabin font-medium">
-              Main Building Lodgings
+              Main Lodge Lodgings
             </span>
-            <VerificationBadge status="verified_from_official_records" />
+            <VerificationBadge status="verified_from_official_records" customText="Resort Specs" />
           </div>
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-nordic-charcoal font-normal">
-            Hotel-Style Rooms & Apartments
+            Lodge Rooms & Panoramic Suites
           </h1>
           <p className="text-base sm:text-lg text-nordic-muted leading-relaxed max-w-3xl">
-            Preserving the authentic architecture of Kuukiuru’s main timber building. Each wing offers an independent layout — from economical twin traveler bases to grand 55 m² family suites overlooking the Kemijoki River.
+            Preserving the authentic architecture of the central timber lodge. Each wing offers an independent layout — from economical twin traveler bases to grand 55 m² family suites overlooking the Kemijoki River.
           </p>
         </div>
 

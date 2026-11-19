@@ -44,7 +44,7 @@ export const Home: React.FC = () => {
           {/* Metadata pill */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-nordic-snow/10 backdrop-blur-md border border-nordic-snow/20 text-[11px] font-mono tracking-[0.2em] uppercase text-nordic-lake">
             <span className="w-1.5 h-1.5 rounded-full bg-nordic-lake animate-pulse" />
-            <span>Kemijärvi · Vuostimo · Finnish Lapland · Est. 1986</span>
+            <span>Kemijärvi · Finnish Lapland · Riverside Retreat</span>
           </div>
 
           {/* Headline */}
@@ -109,9 +109,9 @@ export const Home: React.FC = () => {
             
             <div className="lg:col-span-6 space-y-6">
               <SectionHeader
-                tag="Welcome to Kuukiuru"
+                tag="Welcome to Kuura"
                 title="A place to slow down, explore and stay awhile."
-                description="Situated along the peaceful banks of the Kemijoki River in Vuostimo, between Kemijärvi and Sodankylä, Holiday Village Kuukiuru has welcomed travelers seeking authentic northern tranquility since 1986."
+                description="Situated along the peaceful banks of the Kemijoki River in the Kemijärvi fell region, Kuura Riverside Resort welcomes travelers seeking authentic northern tranquility, starry polar skies, and genuine wilderness comfort."
               />
               <p className="text-nordic-muted text-base leading-relaxed">
                 Positioned near the pristine fells of Pyhä and Luosto, the resort provides an unhurried sanctuary where Finnish sauna culture, vast boreal forests, and the gentle rhythm of the river replace the noise of modern life.
@@ -300,7 +300,7 @@ export const Home: React.FC = () => {
                     Snowfields, Fell Skiing & Frozen Silence
                   </h3>
                   <p className="text-sm text-nordic-snow/80 leading-relaxed">
-                    Winter recreation at Kuukiuru centers on pristine nature: glide along peaceful forest ski tracks, embark on snowmobile routes across frozen river plains, and warm up by an open hearth.
+                    Winter recreation at Kuura centers on pristine nature: glide along peaceful forest ski tracks, embark on snowmobile routes across frozen river plains, and warm up by an open hearth.
                   </p>
                 </div>
 
@@ -394,7 +394,7 @@ export const Home: React.FC = () => {
               <SectionHeader
                 tag="Sanctuary of Heat & Water"
                 title="The authentic Finnish sauna ritual."
-                description="For centuries, the Finnish sauna has been a place for physical cleansing, contemplation, and peaceful renewal. At Kuukiuru, the experience is anchored directly on the banks of the Kemijoki River."
+                description="For centuries, the Finnish sauna has been a place for physical cleansing, contemplation, and peaceful renewal. At Kuura, the experience is anchored directly on the banks of the Kemijoki River."
                 dark={true}
               />
 
@@ -464,7 +464,7 @@ export const Home: React.FC = () => {
             <SectionHeader
               tag="Wilderness & Leisure"
               title="Verified property activities."
-              description="Kuukiuru offers outdoor pursuits directly from the property grounds as well as seamless connections to regional trails."
+              description="Kuura offers outdoor pursuits directly from the property grounds as well as seamless connections to regional trails."
             />
             <Link
               to="/experiences"
@@ -523,7 +523,7 @@ export const Home: React.FC = () => {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <SectionHeader
               tag="Visual Storytelling"
-              title="Glimpses of Kuukiuru."
+              title="Glimpses of Kuura."
               description="A curated preview of life on the Kemijoki River across both seasons."
             />
             <Link
@@ -584,21 +584,21 @@ export const Home: React.FC = () => {
                 Easily accessible wilderness in Eastern Lapland.
               </h3>
               <p className="text-sm text-nordic-muted leading-relaxed">
-                Located in Vuostimo along Kuukiuruntie, 30 km north of Kemijärvi railway station and within easy driving range of both Rovaniemi (115 km) and Kittilä (110 km) airports.
+                Located in the scenic Kemijoki river valley along Jokitie, 28 km from Kemijärvi railway station and within easy driving range of both Rovaniemi (118 km) and Kittilä (112 km) airports.
               </p>
               
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-2 text-xs">
                 <div className="p-3 rounded-lg bg-nordic-surface border border-nordic-border">
                   <span className="text-[10px] font-mono text-nordic-muted block">Kemijärvi</span>
-                  <span className="font-semibold text-nordic-charcoal">30 km (25 min)</span>
-                </div>
-                <div className="p-3 rounded-lg bg-nordic-surface border border-nordic-border">
-                  <span className="text-[10px] font-mono text-nordic-muted block">Pyhä Ski Fell</span>
                   <span className="font-semibold text-nordic-charcoal">28 km (25 min)</span>
                 </div>
                 <div className="p-3 rounded-lg bg-nordic-surface border border-nordic-border">
+                  <span className="text-[10px] font-mono text-nordic-muted block">Pyhä Ski Fell</span>
+                  <span className="font-semibold text-nordic-charcoal">30 km (25 min)</span>
+                </div>
+                <div className="p-3 rounded-lg bg-nordic-surface border border-nordic-border">
                   <span className="text-[10px] font-mono text-nordic-muted block">Rovaniemi Airport</span>
-                  <span className="font-semibold text-nordic-charcoal">115 km (1h 20m)</span>
+                  <span className="font-semibold text-nordic-charcoal">118 km (1h 20m)</span>
                 </div>
               </div>
 
@@ -628,8 +628,8 @@ export const Home: React.FC = () => {
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div>
-                    <h4 className="font-serif text-2xl text-nordic-charcoal">Holiday Village Kuukiuru</h4>
-                    <p className="text-xs text-nordic-muted mt-1">Kuukiuruntie 13, 98360 Kemijärvi, Finland</p>
+                    <h4 className="font-serif text-2xl text-nordic-charcoal">{BUSINESS_CONFIG.name}</h4>
+                    <p className="text-xs text-nordic-muted mt-1">{BUSINESS_CONFIG.location.address}, {BUSINESS_CONFIG.location.postalCode} {BUSINESS_CONFIG.location.municipality}, Finland</p>
                   </div>
                   <div className="text-[11px] font-mono text-nordic-pine bg-nordic-snow px-3 py-1.5 rounded-md inline-block border border-nordic-border">
                     66.8623° N, 27.2458° E

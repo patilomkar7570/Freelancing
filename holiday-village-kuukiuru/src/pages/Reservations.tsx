@@ -377,7 +377,7 @@ export const Reservations: React.FC = () => {
                 <span>Notice to Site Visitor:</span>
               </div>
               <p className="text-nordic-muted leading-relaxed">
-                This is a website concept preview by NOVA Digital Studio. No reservation enquiry has been sent to Holiday Village Kuukiuru.
+                This is a website concept preview by NOVA Digital Studio. No reservation enquiry has been sent.
               </p>
               <div className="pt-2 border-t border-nordic-border font-mono text-[11px] text-nordic-forest">
                 Guest: {formData.fullName}<br />

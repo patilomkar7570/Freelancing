@@ -14,7 +14,7 @@ export const DisclaimerBanner: React.FC = () => {
           <Info className="w-4 h-4 text-nordic-lake shrink-0" aria-hidden="true" />
           <p className="leading-snug">
             <span className="font-semibold text-nordic-lake uppercase tracking-wider text-[10px] mr-1">
-              Independent Redesign Concept:
+              Demonstration Concept:
             </span>
             {BUSINESS_CONFIG.conceptNotice.bannerText}
           </p>

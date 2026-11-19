@@ -27,7 +27,7 @@ function checkUrl(url) {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
-        const hasTitle = data.includes('Holiday Village Kuukiuru');
+        const hasTitle = data.includes('Kuura Riverside Resort');
         const hasRoot = data.includes('id="root"');
         resolve({ url, status: res.statusCode, hasTitle, hasRoot, length: data.length });
       });

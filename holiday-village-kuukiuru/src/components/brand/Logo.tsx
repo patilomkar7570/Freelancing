@@ -14,11 +14,6 @@ export const Logo: React.FC<LogoProps> = ({
   className = '',
   withLink = true
 }) => {
-  // Theme color mappings
-  // light: for light backgrounds (#F5F2E9, #FCFCF9) -> deep forest green & charcoal
-  // dark: for dark backgrounds (#263D32, #292B27) -> snow white & lake blue
-  // monochrome: crisp one-color representation
-  
   const starFill = theme === 'dark' ? '#FCFCF9' : (theme === 'monochrome' ? 'currentColor' : '#263D32');
   const riverStroke = theme === 'dark' ? '#9EB8B5' : (theme === 'monochrome' ? 'currentColor' : '#405B48');
   const cabinStroke = theme === 'dark' ? '#FCFCF9' : (theme === 'monochrome' ? 'currentColor' : '#263D32');
@@ -31,9 +26,8 @@ export const Logo: React.FC<LogoProps> = ({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className="w-9 h-9 md:w-10 md:h-10 shrink-0 transition-transform duration-300 group-hover:scale-105"
-      aria-label="Holiday Village Kuukiuru symbol"
+      aria-label="Kuura Riverside Resort symbol"
     >
-      {/* Background soft circle accent */}
       <circle cx="22" cy="22" r="21" stroke={theme === 'dark' ? '#405B48' : '#DDDCD2'} strokeWidth="1" strokeDasharray="2 2" className="opacity-60" />
       
       {/* Pohjantähti (The Northern Star) radiating at top apex */}
@@ -75,18 +69,18 @@ export const Logo: React.FC<LogoProps> = ({
       {variant !== 'symbol' && (
         <div className="flex flex-col justify-center">
           <span
-            className={`font-mono text-[9px] md:text-[10px] tracking-[0.26em] uppercase font-medium ${secondaryText} transition-colors`}
+            className={`font-mono text-[9px] md:text-[10px] tracking-[0.28em] uppercase font-medium ${secondaryText} transition-colors`}
           >
-            Holiday Village
+            Riverside Resort
           </span>
           <span
-            className={`font-serif tracking-[0.08em] font-medium leading-none text-xl md:text-2xl ${primaryText} transition-colors`}
+            className={`font-serif tracking-[0.14em] font-medium leading-none text-xl md:text-2xl ${primaryText} transition-colors`}
           >
-            KUUKIURU
+            KUURA
           </span>
           {variant === 'horizontal' && (
             <span className={`text-[9px] tracking-[0.18em] uppercase ${secondaryText} opacity-90 hidden sm:inline-block font-sans mt-0.5`}>
-              Kemijoki · Lapland · Est. 1986
+              Kemijoki · Lapland · Retreat
             </span>
           )}
         </div>

@@ -15,7 +15,7 @@ export const SaunaRelaxation: React.FC = () => {
           Authentic Finnish Tradition
         </div>
         <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-normal text-nordic-charcoal">
-          The Sauna Experience at Kuukiuru
+          The Sauna Experience at Kuura
         </h1>
         <p className="text-base sm:text-lg text-nordic-muted leading-relaxed">
           {SAUNA_DETAILS.headline}
@@ -39,7 +39,7 @@ export const SaunaRelaxation: React.FC = () => {
             The Ancient Dialogue of Fire, Stone, and Cold Water
           </h2>
           <p className="text-sm text-nordic-muted leading-relaxed">
-            In Finland, sauna is not a luxury hotel perk — it is an essential part of life. At Kuukiuru, our sauna ritual has been practiced since 1986 directly alongside the flowing waters of the Kemijoki River.
+            In Finland, sauna is not a luxury hotel perk — it is an essential part of life. At Kuura Riverside Resort, our sauna ritual is embraced directly alongside the flowing waters of the Kemijoki River.
           </p>
           <div className="p-4 rounded-xl bg-nordic-surface border border-nordic-border space-y-2 text-xs">
             <span className="font-semibold text-nordic-forest block font-mono uppercase">

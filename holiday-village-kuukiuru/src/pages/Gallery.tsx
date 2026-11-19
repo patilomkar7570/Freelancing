@@ -32,7 +32,7 @@ export const Gallery: React.FC = () => {
           Photo Gallery
         </h1>
         <p className="text-base sm:text-lg text-nordic-muted leading-relaxed">
-          Explore the seasonal moods of Holiday Village Kuukiuru along the Kemijoki River — from deep arctic winter to the golden midnight sun.
+          Explore the seasonal moods of Kuura Riverside Resort along the Kemijoki River — from deep arctic winter to the golden midnight sun.
         </p>
 
         {/* Conceptual disclaimer banner */}

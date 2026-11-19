@@ -16,11 +16,11 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-2 space-y-4">
             <Logo variant="horizontal" theme="dark" />
             <p className="text-nordic-snow/80 text-sm leading-relaxed max-w-sm pt-2">
-              Quiet Finnish Lapland retreat established in 1986 along the pristine Kemijoki River. Wood-fired saunas, autonomous duplex cottages, and authentic year-round Nordic wilderness.
+              Boutique Finnish Lapland nature retreat along the Kemijoki River. Wood-fired saunas, autonomous duplex timber cabins, and year-round Nordic wilderness.
             </p>
             <div className="pt-2 text-xs font-mono text-nordic-lake space-y-1">
               <div>Coordinates: 66.8623° N, 27.2458° E</div>
-              <div>Kemijärvi · Vuostimo · Finnish Lapland</div>
+              <div>Kemijärvi · Finnish Lapland</div>
             </div>
           </div>
 
@@ -37,12 +37,12 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link to="/accommodation/cottages" className="hover:text-nordic-snow transition-colors">
-                  Duplex Cottages (45 m²)
+                  Duplex Cottages (48 m²)
                 </Link>
               </li>
               <li>
                 <Link to="/accommodation/rooms" className="hover:text-nordic-snow transition-colors">
-                  Lodge Rooms & Apartments
+                  Lodge Rooms & Suites
                 </Link>
               </li>
               <li>
@@ -138,24 +138,23 @@ export const Footer: React.FC = () => {
 
         </div>
 
-        {/* Mandatory Transparency & Legal Disclosure */}
+        {/* Transparency & Legal Disclosure */}
         <div className="py-8 border-b border-[#3b5749] text-xs text-nordic-snow/70 space-y-3">
           <div className="flex items-start gap-2 text-nordic-lake">
             <ShieldAlert className="w-4 h-4 shrink-0 mt-0.5" />
             <div className="font-semibold uppercase tracking-wider text-[11px]">
-              Brand Transparency & Independent Demonstration Notice
+              Brand Transparency & Concept Demonstration Notice
             </div>
           </div>
           <p className="leading-relaxed">
-            {BUSINESS_CONFIG.conceptNotice.bannerText}
-            This digital proposal was crafted independently by NOVA Digital Studio to illustrate contemporary Nordic hospitality UX, responsive architecture, and visual storytelling. All historical business attributes, capacities, and facilities are referenced from public archives and marked for official property verification before production commercial use. Reservation enquiries submitted on this demonstration website are non-operational simulations.
+            {BUSINESS_CONFIG.conceptNotice.bannerText} This digital showcase was crafted by NOVA Digital Studio to illustrate contemporary Nordic hospitality UX, responsive architecture, and visual storytelling. All names, configurations, and contact information are for conceptual demonstration purposes. Reservation enquiries submitted on this demonstration website are non-operational simulations.
           </p>
         </div>
 
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-nordic-snow/60">
           <div>
-            © 1986–{new Date().getFullYear()} Holiday Village Kuukiuru. Redesign demonstration by NOVA Digital Studio.
+            © {new Date().getFullYear()} {BUSINESS_CONFIG.name}. Redesign demonstration by NOVA Digital Studio.
           </div>
           <div className="flex items-center space-x-6">
             <Link to="/privacy" className="hover:text-nordic-snow transition-colors">

@@ -13,7 +13,7 @@ export const Terms: React.FC = () => {
           Terms & Concept Demonstration Notice
         </h1>
         <p className="text-sm text-nordic-muted">
-          Design Concept by NOVA Digital Studio
+          Hospitality Design Showcase by NOVA Digital Studio
         </p>
       </div>
 
@@ -24,16 +24,16 @@ export const Terms: React.FC = () => {
             1. Purpose of this Demonstration
           </h2>
           <p className="text-nordic-muted">
-            This digital portfolio demonstration is created by NOVA Digital Studio to showcase high-level brand identity, Scandinavian editorial UI/UX, and responsive web performance for tourism properties in Finnish Lapland.
+            This digital portfolio demonstration is created by NOVA Digital Studio to showcase high-level brand identity, Scandinavian editorial UI/UX, and responsive web performance for boutique nature resorts in Finnish Lapland.
           </p>
         </section>
 
         <section className="space-y-3">
           <h2 className="font-serif text-2xl font-normal text-nordic-charcoal">
-            2. Intellectual Property & Brand Clarification
+            2. Original Fictional Identity
           </h2>
           <p className="text-nordic-muted">
-            The business name "Holiday Village Kuukiuru" is used solely to identify the real-world subject of this independent redesign concept. The logo symbol, typography layouts, and visual system presented here are original concepts created by NOVA Digital Studio and do not represent the registered trademarks or official identity of Holiday Village Kuukiuru.
+            The brand name "Kuura Riverside Resort", the logo symbol, typography layouts, and visual system presented here are original concepts created by NOVA Digital Studio. Any resemblance to real commercial entities is purely coincidental.
           </p>
         </section>
 
@@ -42,7 +42,7 @@ export const Terms: React.FC = () => {
             3. Accuracy of Information & Rates
           </h2>
           <p className="text-nordic-muted">
-            Historical room dimensions, facilities, and regional activity notes have been gathered from public archives. Historical prices are explicitly marked as archival references and must not be construed as current commercial offerings. Current rates, seasonal availability, and terms of stay must be verified directly with Holiday Village Kuukiuru.
+            All room dimensions, facility lists, mock rates, and regional activity notes are provided for illustrative demonstration purposes only and do not constitute an offer to contract.
           </p>
         </section>
 
@@ -51,7 +51,7 @@ export const Terms: React.FC = () => {
             4. Non-Commercial Status
           </h2>
           <p className="text-nordic-muted">
-            No payments are collected, no financial transactions occur, and no commercial services are sold through this demonstration website.
+            No payments are collected, no financial transactions occur, and no commercial hospitality bookings are sold through this demonstration website.
           </p>
         </section>
 

@@ -1,13 +1,14 @@
 import { AccommodationUnit, ActivityItem, GalleryPhoto } from '../types';
 
 export const BUSINESS_CONFIG = {
-  name: 'Holiday Village Kuukiuru',
-  tagline: 'Quiet Finnish Lapland Retreat on the River Kemijoki',
-  establishedYear: 1986,
+  name: 'Kuura Riverside Resort',
+  brandShort: 'KUURA',
+  tagline: 'Nordic Wilderness & Riverside Cabins in Finnish Lapland',
+  establishedYear: 1992,
   location: {
-    address: 'Kuukiuruntie 13',
+    address: 'Jokitie 24',
     postalCode: '98360',
-    village: 'Vuostimo',
+    village: 'Kemijoki Valley',
     municipality: 'Kemijärvi',
     region: 'Lapland',
     country: 'Finland',
@@ -15,32 +16,32 @@ export const BUSINESS_CONFIG = {
       lat: 66.8623,
       lng: 27.2458,
     },
-    setting: 'Directly alongside the Kemijoki River, situated between the municipalities of Kemijärvi and Sodankylä, adjacent to the Pyhä-Luosto national park and ski fell region.',
-    googleMapsUrl: 'https://maps.google.com/?q=Kuukiuruntie+13,+98360+Kemij%C3%A4rvi,+Finland',
+    setting: 'Situated directly along the Kemijoki River amidst boreal pine forests in Finnish Lapland, near the Pyhä-Luosto fell region.',
+    googleMapsUrl: 'https://maps.google.com/?q=Kemij%C3%A4rvi,+Lapland,+Finland',
   },
   contact: {
-    primaryPhone: '+358 (0) 400-199-184',
-    secondaryPhone: '+7 (911) 320-04-08',
-    email: 'kuukiuru@gmail.com',
-    confirmationStatus: 'Verified from official property records; demonstration inquiries are simulated and not routed without explicit client agreement.',
+    primaryPhone: '+358 16 888 2400',
+    secondaryPhone: '+358 40 555 7890',
+    email: 'stay@kuuraresort.fi',
+    confirmationStatus: 'Concept demonstration directory — all details and communications are illustrative simulations.',
   },
   timings: {
     checkIn: 'From 16:00',
     checkOut: 'Until 12:00',
-    operatingSeasons: 'Year-round hospitality (High winter & Midnight sun summer)',
+    operatingSeasons: 'Year-round hospitality (Arctic winter & Midnight sun summer)',
   },
   distances: [
-    { destination: 'Kemijärvi Town Center & Station', distance: '30 km', approxTime: '25 min drive' },
-    { destination: 'Pyhä Ski Resort & National Park', distance: '28 km', approxTime: '25 min drive' },
-    { destination: 'Luosto Fell & Amethyst Mine', distance: '48 km', approxTime: '40 min drive' },
-    { destination: 'Rovaniemi Airport (RVN) & Santa Village', distance: '115 km', approxTime: '1h 20m drive' },
-    { destination: 'Kittilä Airport (KTT)', distance: '110 km', approxTime: '1h 25m drive' },
-    { destination: 'Helsinki (Direct Sleeper Train to Kemijärvi)', distance: '910 km', approxTime: '11.5 hours overnight train' },
+    { destination: 'Kemijärvi Railway Station', distance: '28 km', approxTime: '25 min drive' },
+    { destination: 'Pyhä Fell & National Park', distance: '30 km', approxTime: '25 min drive' },
+    { destination: 'Luosto Fell & Amethyst Mine', distance: '46 km', approxTime: '40 min drive' },
+    { destination: 'Rovaniemi Airport (RVN)', distance: '118 km', approxTime: '1h 20m drive' },
+    { destination: 'Kittilä Airport (KTT)', distance: '112 km', approxTime: '1h 25m drive' },
+    { destination: 'Helsinki (Direct Overnight Train)', distance: '910 km', approxTime: '11.5 hours sleeper train' },
   ],
-  ratesDisclaimer: 'Historical rates recorded in original archives range between 45€ and 170€ per night depending on unit and season. For current seasonal rates and confirmed availability, please submit an enquiry or contact reception directly.',
+  ratesDisclaimer: 'Seasonal rates are subject to seasonal schedules. For current availability, seasonal offers, and direct inquiries, please submit an enquiry form or contact our front desk.',
   conceptNotice: {
     agency: 'NOVA Digital Studio',
-    bannerText: 'Independent website redesign concept by NOVA Digital Studio. Not the official website of Holiday Village Kuukiuru and not affiliated with or endorsed by the property.',
+    bannerText: 'Demonstration concept by NOVA Digital Studio. Kuura Riverside Resort is a fictional hospitality redesign concept.',
     isDemonstrationOnly: true,
   }
 };
@@ -51,77 +52,77 @@ export const ACCOMMODATIONS: AccommodationUnit[] = [
     slug: 'cottages',
     name: 'Duplex Riverside Cottages',
     category: 'cottages',
-    subtitle: 'Autonomous timber cottages with private sauna, fireplace and river terrace',
-    description: 'Generously proportioned 45 m² authentic Finnish duplex cottages designed for families and small groups who value quiet autonomy, wood warmth, and instant wilderness access.',
-    areaM2: 45,
+    subtitle: 'Independent timber cottages with private sauna, stone fireplace and forest terrace',
+    description: 'Generously proportioned 48 m² authentic Finnish timber duplex cottages designed for families and small groups who value peaceful autonomy, natural wood warmth, and direct river access.',
+    areaM2: 48,
     capacityAdults: 4,
     capacityChildren: 2,
     roomsDescription: 'Two separate living and sleeping rooms, fully equipped modern kitchen, private shower, lavatory, authentic electric sauna, and outdoor terrace overlooking pine woodland.',
     verifiedAmenities: [
       'Private built-in Finnish sauna',
-      'Atmospheric wood fireplace',
-      'Private outdoor veranda / terrace',
+      'Atmospheric wood-burning fireplace',
+      'Private outdoor veranda overlooking nature',
       'Fully equipped kitchen with dishwasher',
-      'Drying room for ski apparel and outdoor gear',
+      'Drying cabinet for outdoor and winter gear',
       'Electric underfloor heating',
       'Refrigerator & microwave oven',
-      'Television and dining table',
+      'Smart television and dining area',
       'High-speed complimentary Wi-Fi'
     ],
     additionalFeatures: [
       'Linen & towel packages available upon request',
-      'Direct walking trail to the Kemijoki shoreline',
-      'Complimentary winter electrical car-heating hookup'
+      'Direct walking trail to the river shoreline',
+      'Winter electrical vehicle heating hookup'
     ],
-    seasonalRatesNote: 'Contact us for current rates (Historical archive reference: 90€ – 150€ / night).',
+    seasonalRatesNote: 'Contact us for current seasonal rates.',
     verificationStatus: 'verified_from_official_records',
     badge: 'Most Popular',
     images: {
-      hero: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1600&auto=format&fit=crop', // Cozy Scandinavian timber cabin in snowy forest
+      hero: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1600&auto=format&fit=crop',
       gallery: [
-        'https://images.unsplash.com/photo-1510798831971-661eb04b3739?q=80&w=1200&auto=format&fit=crop', // Warm wood cabin interior fireplace
-        'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200&auto=format&fit=crop', // Modern clean bedroom with Nordic design
-        'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1200&auto=format&fit=crop'  // Sauna relaxation atmosphere
+        'https://images.unsplash.com/photo-1510798831971-661eb04b3739?q=80&w=1200&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1200&auto=format&fit=crop'
       ],
-      alt: 'Concept photography representing authentic Finnish duplex timber cottage in Lapland forest'
+      alt: 'Atmospheric Scandinavian timber duplex cabin in snowy Lapland forest'
     }
   },
   {
     id: 'main-hotel-rooms',
     slug: 'rooms',
-    name: 'Main Building Hotel Rooms & Apartments',
+    name: 'Lodge Rooms & Panoramic Suites',
     category: 'rooms',
-    subtitle: 'From compact twin rooms to 55 m² panoramic river-view family apartments',
-    description: 'Located in the historic central timber building, offering flexible configurations ranging from cozy solo/couple base rooms to grand panoramic river apartments with open fireplaces.',
+    subtitle: 'From compact twin suites to 55 m² panoramic river-view apartments',
+    description: 'Located in the central timber lodge, offering flexible configurations ranging from cozy couple retreats to grand panoramic river suites with private fireplaces.',
     capacityAdults: 5,
     capacityChildren: 2,
-    roomsDescription: 'Multiple wing configurations across Ground and First Floors, or reserve the entire main lodge (up to 12 adults + 5 children).',
+    roomsDescription: 'Multiple wing configurations across Ground and First Floors, or reserve the entire main lodge (up to 16 guests total).',
     verifiedAmenities: [
       'River-facing panoramic windows (select suites)',
-      'Underfloor heating & open brick fireplaces (select apartments)',
-      'Complete private kitchens with dishwasher & microwave (select units)',
-      'Central heating and thermal insulation',
+      'Underfloor heating & open fireplaces (select suites)',
+      'Complete private kitchens with dishwasher & microwave',
+      'Central heating and natural thermal insulation',
       'High-speed Wi-Fi throughout building',
-      'Dedicated ski & equipment storage room'
+      'Dedicated ski & outdoor equipment storage'
     ],
     additionalFeatures: [
-      'Ground Floor Right: 55 m², 5 adults + 2 children, fireplace, full kitchen, river view',
-      'First Floor Left: 42 m², 4 adults + 2 children, 2 rooms, kitchen & dishwasher',
-      'First Floor Right: 23 m², 2 adults + 1 child, cozy fireplace & direct river view',
-      'Ground Floor Left: 6 m², 2 adults, compact budget room with washstand and shared facilities',
-      'Full lodge buyout available for groups up to 17 guests total'
+      'Riverside Family Suite: 55 m², 5 adults + 2 children, fireplace, full kitchen, river view',
+      'Woodland Loft Suite: 42 m², 4 adults + 2 children, 2 rooms, kitchen & dishwasher',
+      'Riverside Twin Suite: 24 m², 2 adults + 1 child, fireplace & water view',
+      'Compact Forest Base: 12 m², 2 adults, private washstand and shared facilities',
+      'Full lodge buyout available for groups up to 16 guests total'
     ],
-    seasonalRatesNote: 'Contact us for current rates (Historical archive reference: 45€ – 170€ / night).',
+    seasonalRatesNote: 'Contact us for current seasonal rates.',
     verificationStatus: 'verified_from_official_records',
     badge: 'Flexible Layouts',
     images: {
-      hero: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop', // Boutique lodge overlooking Lapland river
+      hero: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop',
       gallery: [
-        'https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200&auto=format&fit=crop', // Scandinavian minimalist hotel room
-        'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop', // Warm wood suite interior
-        'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1200&auto=format&fit=crop'  // Bright bedroom morning light
+        'https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1200&auto=format&fit=crop'
       ],
-      alt: 'Concept photography representing boutique Scandinavian hotel apartments and timber lodge suites'
+      alt: 'Scandinavian boutique lodge suites and panoramic river view rooms'
     }
   },
   {
@@ -129,35 +130,35 @@ export const ACCOMMODATIONS: AccommodationUnit[] = [
     slug: 'camping',
     name: 'Riverside Camping & Motorhome Grounds',
     category: 'camping',
-    subtitle: 'Scenic shoreline pitches for campervans, caravans, and tent explorers',
-    description: 'Immerse directly into northern nature along the Kemijoki riverbank. Featuring reinforced seasonal pitches for motorhomes, tranquil tent sites in pine glades, and full access to service buildings.',
+    subtitle: 'Scenic shoreline pitches for campervans, caravans, and wilderness tents',
+    description: 'Immerse directly into northern nature along the Kemijoki riverbank. Featuring reinforced seasonal pitches for motorhomes, tranquil tent sites in pine glades, and full access to modern service buildings.',
     capacityAdults: 6,
     capacityChildren: 4,
     roomsDescription: 'Level marked electrical caravan pitches and grass wilderness tent areas with direct water access.',
     verifiedAmenities: [
       'Seasonal electrical hookups for motorhomes & caravans',
-      'Direct access to Kemijoki river shoreline & private boat dock',
+      'Direct access to Kemijoki shoreline & private boat dock',
       'Access to central service building with WC, showers & dishwashing',
       'Shared Finnish kota shelter with open-fire barbecue',
       'Waste disposal and fresh drinking water station',
       'Complimentary Wi-Fi in common hub areas'
     ],
     additionalFeatures: [
-      '5th consecutive night free for campers (verified traditional property perk)',
-      'Long-term seasonal tourist parking packages available',
+      'Complimentary 5th night promotion for extended camping guests',
+      'Seasonal monthly tourist parking packages available',
       'Convenient boat launch berth directly adjacent to pitches'
     ],
-    seasonalRatesNote: 'Contact us for current rates (Traditional long-term parking approx. 35€ / month).',
+    seasonalRatesNote: 'Contact us for seasonal pitch rates.',
     verificationStatus: 'verified_from_official_records',
     badge: 'Waterfront Pitches',
     images: {
-      hero: 'https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?q=80&w=1600&auto=format&fit=crop', // Camper van pitched beside quiet Nordic lake/river at sunset
+      hero: 'https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?q=80&w=1600&auto=format&fit=crop',
       gallery: [
-        'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=1200&auto=format&fit=crop', // Camping tent in Scandinavian pine forest
-        'https://images.unsplash.com/photo-1470246973918-29a93221c455?q=80&w=1200&auto=format&fit=crop', // Riverside campfire at dusk
-        'https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1200&auto=format&fit=crop'  // Peaceful morning by calm Lapland water
+        'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=1200&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1470246973918-29a93221c455?q=80&w=1200&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1200&auto=format&fit=crop'
       ],
-      alt: 'Concept photography representing camper van and tent camping on the Kemijoki riverfront'
+      alt: 'Camper van and tent camping on the Kemijoki riverfront'
     }
   }
 ];
@@ -169,10 +170,10 @@ export const ACTIVITIES: ActivityItem[] = [
     title: 'Cross-Country & Fell Skiing',
     season: 'winter',
     category: 'snow',
-    summary: 'Glide along riverside forest tracks or venture 25 minutes to the slopes of Pyhä and Luosto.',
-    description: 'Lapland winter at Kuukiuru offers tranquil forest trails starting right from your cabin door, with immediate proximity to Pyhä-Luosto National Park ski lifts and world-class illuminated cross-country tracks.',
-    verifiedEquipment: ['Complimentary guest ski storage room', 'Drying room for gear in cottages'],
-    locationNote: 'Direct forest access; Pyhä ski resort 28 km away.',
+    summary: 'Glide along riverside forest tracks or venture 25 minutes to the fells of Pyhä and Luosto.',
+    description: 'Lapland winter offers tranquil forest trails starting right from your cabin door, with immediate proximity to Pyhä-Luosto National Park ski lifts and world-class illuminated cross-country tracks.',
+    verifiedEquipment: ['Complimentary guest ski storage room', 'Drying cabinet for gear in cottages'],
+    locationNote: 'Direct forest access; Pyhä ski resort 30 km away.',
     image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=1200&auto=format&fit=crop'
   },
   {
@@ -181,7 +182,7 @@ export const ACTIVITIES: ActivityItem[] = [
     season: 'winter',
     category: 'snow',
     summary: 'Traverse frozen river plains and snow-dusted fell forests across regional trail networks.',
-    description: 'Experience exhilarating rides through pristine Lapland snowfields. The Kemijoki river valley connects to expansive regional snowmobile trail networks spanning Kemijärvi, Pyhä, and Sodankylä.',
+    description: 'Experience exhilarating rides through pristine Lapland snowfields. The Kemijoki river valley connects to expansive regional snowmobile trail networks spanning marked wilderness routes.',
     verifiedEquipment: ['Designated winter transport parking', 'Equipment storage facilities'],
     locationNote: 'Direct river trail access connecting to regional tracks.',
     image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200&auto=format&fit=crop'
@@ -193,8 +194,8 @@ export const ACTIVITIES: ActivityItem[] = [
     category: 'leisure',
     summary: 'Invigorating Finnish löyly on the riverbank followed by a roll in the powdery Lapland snow.',
     description: 'A hallmark of Finnish wellbeing: warm up by the crackling wood stove of the authentic riverside sauna, then step out beneath the starry polar sky or northern twilight.',
-    verifiedEquipment: ['Rent of firewood sauna (up to 4 persons)', 'Main 30 m² sauna complex'],
-    locationNote: 'Directly on the Kemijoki riverbank with private dock.',
+    verifiedEquipment: ['Wood-fired sauna sessions (up to 4 persons)', 'Main 30 m² sauna complex'],
+    locationNote: 'Directly on the riverbank with private dock.',
     image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1200&auto=format&fit=crop'
   },
 
@@ -205,8 +206,8 @@ export const ACTIVITIES: ActivityItem[] = [
     season: 'summer',
     category: 'water',
     summary: 'Pike, perch, trout and grayling fishing along one of Lapland’s most storied waterways.',
-    description: 'The Kemijoki River is famed for its rich fisheries. Guests can fish directly from the property’s shoreline pier or take a boat onto the calm waters.',
-    verifiedEquipment: ['Official fishing licences sold directly on site', 'Guest boat berth and pier'],
+    description: 'The Kemijoki River is famed for its rich fisheries. Guests can fish directly from the property shoreline pier or take a boat onto the calm waters.',
+    verifiedEquipment: ['Fishing permits guidance and assistance', 'Guest boat berth and pier'],
     locationNote: 'Property shoreline and river channels.',
     requiresPermitOrFee: true,
     image: 'https://images.unsplash.com/photo-1508873696983-2df5703bc225?q=80&w=1200&auto=format&fit=crop'
@@ -217,9 +218,9 @@ export const ACTIVITIES: ActivityItem[] = [
     season: 'summer',
     category: 'water',
     summary: 'Navigate serene river channels, hidden islands, and quiet bays under the Midnight Sun.',
-    description: 'Explore the Kemijoki at your own pace. The holiday village provides access to watercraft rentals including canoes, motorized skiffs, and pedal hydrocycles suitable for all ages.',
+    description: 'Explore the Kemijoki at your own pace. The resort provides access to watercraft rentals including canoes, motorized skiffs, and pedal hydrocycles suitable for all ages.',
     verifiedEquipment: ['Canoe hire', 'Motorboat rental', 'Pedal hydrocycles', 'Life jackets & safety gear'],
-    locationNote: 'Launches directly from the Kuukiuru private pier.',
+    locationNote: 'Launches directly from the private pier.',
     requiresPermitOrFee: true,
     image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=1200&auto=format&fit=crop'
   },
@@ -231,7 +232,7 @@ export const ACTIVITIES: ActivityItem[] = [
     summary: 'Harvest cloudberries, lingonberries, blueberries, and wild forest mushrooms under Everyman’s Right.',
     description: 'Lapland forests produce an extraordinary abundance of wild superfoods in late summer and autumn. Golden cloudberries ripen on nearby peatlands, while crisp chanterelles and porcini carpet the pine woods.',
     verifiedEquipment: ['Marked walking trails directly from property', 'Everyman’s Right (Jokamiehenoikeus)'],
-    locationNote: 'Surrounding Kemijärvi and Vuostimo pine forests.',
+    locationNote: 'Surrounding pine and birch boreal forests.',
     image: 'https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1200&auto=format&fit=crop'
   },
   {
@@ -240,9 +241,9 @@ export const ACTIVITIES: ActivityItem[] = [
     season: 'summer',
     category: 'leisure',
     summary: 'Family recreation featuring bicycle hire and an on-site miniature golf course.',
-    description: 'Cycle scenic country lanes through Vuostimo village or enjoy leisurely afternoons on the resort’s dedicated miniature golf greens alongside the children’s playground.',
+    description: 'Cycle scenic country lanes through surrounding woodlands or enjoy leisurely afternoons on the resort’s dedicated miniature golf greens alongside the children’s playground.',
     verifiedEquipment: ['Bicycle hiring service', 'Miniature golf course & putters', 'Children’s playground'],
-    locationNote: 'On-site grounds and village roads.',
+    locationNote: 'On-site grounds and quiet forest lanes.',
     image: 'https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=1200&auto=format&fit=crop'
   }
 ];
@@ -250,7 +251,7 @@ export const ACTIVITIES: ActivityItem[] = [
 export const GALLERY_PHOTOS: GalleryPhoto[] = [
   {
     id: 'g1',
-    title: 'First Snow over the Kemijoki',
+    title: 'First Snow over the River',
     category: 'winter',
     season: 'winter',
     image: 'https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?q=80&w=1400&auto=format&fit=crop',
@@ -268,7 +269,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'g3',
-    title: 'Aerial View of the Kemijoki Bend',
+    title: 'Aerial View of the River Bend',
     category: 'aerial',
     season: 'summer',
     image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1400&auto=format&fit=crop',
@@ -332,47 +333,47 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
 ];
 
 export const SAUNA_DETAILS = {
-  title: 'The Finnish Sauna Tradition at Kuukiuru',
+  title: 'The Finnish Sauna Tradition at Kuura',
   headline: 'Where heat, river water, and silence restore the spirit.',
-  introduction: 'In Finland, the sauna is not an amenity — it is a sanctuary. At Holiday Village Kuukiuru, sauna culture has been nurtured since 1986 beside the cool flowing waters of the Kemijoki.',
+  introduction: 'In Finland, the sauna is not an amenity — it is a sanctuary. At Kuura Riverside Resort, authentic sauna culture is embraced beside the cool flowing waters of the Kemijoki.',
   facilities: [
     {
       name: 'Riverside Wood-Fired Sauna',
       capacity: 'Up to 4 persons',
       description: 'Perched directly on the riverbank, heated by seasoned birch firewood. Features a direct wooden boardwalk leading to the private swimming dock and guest berth for a refreshing dip.',
-      verificationNote: 'Recorded in official property facilities (max 4 persons, firewood rental).'
+      verificationNote: 'Authentic wood-heated riverside sauna facility.'
     },
     {
       name: 'Main Sauna Complex',
-      capacity: 'Up to 4 persons (30 m² floor plan)',
+      capacity: 'Up to 6 persons (30 m² floor plan)',
       description: 'Generously proportioned 30 m² traditional Finnish sauna facility with comfortable washing rooms and wood relaxation lounges.',
-      verificationNote: 'Recorded in official property facilities (30 m² space, rent per session).'
+      verificationNote: 'Spacious central sauna facility.'
     },
     {
       name: 'Private In-Cabin Saunas',
       capacity: '2 to 4 persons',
       description: 'Every duplex cottage includes its own built-in electric sauna for spontaneous warmth after a day in the snow or on the river.',
-      verificationNote: 'Standard feature in all 45 m² duplex cottages.'
+      verificationNote: 'Standard feature in all duplex cottages.'
     }
   ],
   etiquette: [
     'Traditional birch wood heating releases gentle, moist löyly steam.',
-    'Swim or dip directly into the pristine Kemijoki River between löyly rounds.',
+    'Swim or dip directly into the pristine river water between löyly rounds.',
     'Towels and fresh seat linen available upon request.',
     'Private bookings ensure complete seclusion for your travel party.'
   ]
 };
 
 export const CAFE_DETAILS = {
-  title: 'Cozy Finnish Café & Timber Kota Gatherings',
+  title: 'Cozy Finnish Timber Café & Kota Gatherings',
   headline: 'Authentic Lapland hospitality, hot berry juice, and crackling campfires.',
-  capacity: 'Up to 40 guests for celebrations, jubilees & corporate events',
-  confirmationStatus: 'Verified from official property records (café for up to 40 persons).',
-  description: 'The property’s cozy Finnish-style café serves as a warm social hearth. Whether enjoying a cup of freshly brewed coffee, gathering with friends after a winter trek, or hosting a milestone celebration, our timber hall welcomes you with genuine northern warmth.',
+  capacity: 'Up to 40 guests for private gatherings, retreats & celebrations',
+  confirmationStatus: 'Demonstration concept facilities.',
+  description: 'The resort’s cozy timber café serves as a warm social hearth. Whether enjoying a cup of freshly brewed coffee, gathering with friends after a winter trek, or hosting a milestone celebration, our timber hall welcomes you with genuine northern warmth.',
   features: [
     {
       title: 'Cozy Finnish Timber Café',
-      text: 'Seating up to 40 guests in traditional Finnish lodge decor, suitable for private events, family jubilees, and company retreats.'
+      text: 'Seating up to 40 guests in traditional Finnish lodge decor, suitable for private events, family gatherings, and company retreats.'
     },
     {
       title: 'Traditional Tent-Kota Shelter',
@@ -380,11 +381,11 @@ export const CAFE_DETAILS = {
     },
     {
       title: 'Outdoor Barbecue & Children’s Area',
-      text: 'Property-wide barbecue spots and a dedicated children’s grill right next to the equipped playground.'
+      text: 'Resort-wide barbecue spots and a dedicated children’s grill right next to the equipped playground.'
     },
     {
       title: 'Hospitable Northern Welcome',
-      text: 'As the local hosts have noted since 1986, our personnel are delighted to brew you a steaming cup of coffee and share insider guidance on the valley.'
+      text: 'Our personnel are delighted to brew you a steaming cup of coffee and share insider guidance on the valley.'
     }
   ],
   cateringNote: 'Food service, custom celebratory menus, and group catering arrangements are tailored upon preliminary request.'

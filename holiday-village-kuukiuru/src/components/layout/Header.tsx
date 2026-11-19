@@ -292,7 +292,7 @@ export const Header: React.FC = () => {
           <div className="space-y-6">
             
             <div className="text-xs font-mono uppercase tracking-widest text-nordic-muted">
-              Explore Holiday Village Kuukiuru
+              Explore Kuura Riverside Resort
             </div>
 
             <div className="space-y-2">

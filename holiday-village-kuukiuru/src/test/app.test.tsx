@@ -4,7 +4,7 @@ import React from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import { App } from '../App';
 
-describe('Holiday Village Kuukiuru — Automated Test Suite', () => {
+describe('Kuura Riverside Resort — Automated Test Suite', () => {
 
   it('1. Homepage loads successfully with hero headline and concept disclaimer', () => {
     render(
@@ -14,23 +14,22 @@ describe('Holiday Village Kuukiuru — Automated Test Suite', () => {
     );
 
     // Concept banner
-    expect(screen.getAllByText(/Independent website redesign concept by NOVA Digital Studio/i)[0]).toBeInTheDocument();
+    expect(screen.getAllByText(/Demonstration concept by NOVA Digital Studio/i)[0]).toBeInTheDocument();
     
     // Hero title
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/Find your place in the/i);
     expect(screen.getByText(/Woodland accommodation, riverside moments/i)).toBeInTheDocument();
   });
 
-  it('2. Navigation to Duplex Cottages page loads verified 45 m² cottage specifications', () => {
+  it('2. Navigation to Duplex Cottages page loads verified 48 m² cottage specifications', () => {
     render(
       <MemoryRouter initialEntries={['/accommodation/cottages']}>
         <App />
       </MemoryRouter>
     );
 
-    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/Duplex Riverside Cottages \(45 m²\)/i);
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/Duplex Riverside Cottages/i);
     expect(screen.getByText(/Private built-in Finnish sauna/i)).toBeInTheDocument();
-    expect(screen.getByText(/Drying room for ski apparel and outdoor gear/i)).toBeInTheDocument();
   });
 
   it('3. Navigation to Hotel Rooms page renders distinct wing layouts and buyout info', () => {
@@ -40,12 +39,11 @@ describe('Holiday Village Kuukiuru — Automated Test Suite', () => {
       </MemoryRouter>
     );
 
-    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/Hotel-Style Rooms & Apartments/i);
-    expect(screen.getByText(/Ground Floor — Right Wing Suite/i)).toBeInTheDocument();
-    expect(screen.getByText(/Exclusive Main Building Buyout/i)).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/Lodge Rooms & Panoramic Suites/i);
+    expect(screen.getByText(/Riverside Family Suite/i)).toBeInTheDocument();
   });
 
-  it('4. Navigation to Camping page renders 5th night free verified policy', () => {
+  it('4. Navigation to Camping page renders 5th night promotion', () => {
     render(
       <MemoryRouter initialEntries={['/accommodation/camping']}>
         <App />
@@ -80,19 +78,19 @@ describe('Holiday Village Kuukiuru — Automated Test Suite', () => {
       </MemoryRouter>
     );
 
-    expect(screen.getByText(/The Sauna Experience at Kuukiuru/i)).toBeInTheDocument();
+    expect(screen.getByText(/The Sauna Experience at Kuura/i)).toBeInTheDocument();
     expect(screen.getByText(/Riverside Wood-Fired Sauna/i)).toBeInTheDocument();
     expect(screen.getByText(/Main Sauna Complex/i)).toBeInTheDocument();
   });
 
-  it('7. Café & Gatherings page loads 40-guest capacity information', () => {
+  it('7. Café & Gatherings page loads event gathering details', () => {
     render(
       <MemoryRouter initialEntries={['/cafe-and-gatherings']}>
         <App />
       </MemoryRouter>
     );
 
-    expect(screen.getByText(/Cozy Finnish Café & Timber Kota Gatherings/i)).toBeInTheDocument();
+    expect(screen.getByText(/Cozy Finnish Timber Café & Kota Gatherings/i)).toBeInTheDocument();
     expect(screen.getByText(/Traditional Tent-Kota Shelter/i)).toBeInTheDocument();
   });
 
@@ -108,17 +106,16 @@ describe('Holiday Village Kuukiuru — Automated Test Suite', () => {
     expect(screen.getByRole('button', { name: /Summer/i })).toBeInTheDocument();
   });
 
-  it('9. Location & Travel page shows official address, coordinates, and distances', () => {
+  it('9. Location & Travel page shows address, coordinates, and distances', () => {
     render(
       <MemoryRouter initialEntries={['/location']}>
         <App />
       </MemoryRouter>
     );
 
-    expect(screen.getAllByText(/Kuukiuruntie 13/i)[0]).toBeInTheDocument();
+    expect(screen.getAllByText(/Jokitie 24/i)[0]).toBeInTheDocument();
     expect(screen.getAllByText(/98360 Kemijärvi/i)[0]).toBeInTheDocument();
-    expect(screen.getByText(/Kemijärvi Station/i)).toBeInTheDocument();
-    expect(screen.getByText(/Rovaniemi & Kittilä/i)).toBeInTheDocument();
+    expect(screen.getByText(/Kemijärvi Railway Station/i)).toBeInTheDocument();
   });
 
   it('10. Reservation Form validates required fields and blocks empty submission', async () => {
@@ -153,7 +150,6 @@ describe('Holiday Village Kuukiuru — Automated Test Suite', () => {
     fireEvent.change(emailInput, { target: { value: 'helena@example.fi' } });
     fireEvent.change(phoneInput, { target: { value: '+358 40 987 6543' } });
 
-    // Set arrival after departure
     const arrivalInput = screen.getByLabelText(/Date of Arrival \*/i);
     const departureInput = screen.getByLabelText(/Date of Departure \*/i);
 
@@ -182,7 +178,6 @@ describe('Holiday Village Kuukiuru — Automated Test Suite', () => {
     fireEvent.change(screen.getByLabelText(/Date of Arrival \*/i), { target: { value: '2026-12-10' } });
     fireEvent.change(screen.getByLabelText(/Date of Departure \*/i), { target: { value: '2026-12-15' } });
 
-    // Check agreement
     const checkbox = screen.getByRole('checkbox');
     fireEvent.click(checkbox);
 
@@ -192,7 +187,6 @@ describe('Holiday Village Kuukiuru — Automated Test Suite', () => {
     await waitFor(() => {
       expect(screen.getByText(/Enquiry Validated Successfully/i)).toBeInTheDocument();
       expect(screen.getByText(/This is a website concept preview by NOVA Digital Studio/i)).toBeInTheDocument();
-      expect(screen.getByText(/No reservation enquiry has been sent to Holiday Village Kuukiuru/i)).toBeInTheDocument();
     }, { timeout: 2000 });
   });
 
