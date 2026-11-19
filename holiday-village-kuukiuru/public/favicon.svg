@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="10" fill="#263D32"/>
+  <!-- Flowing river ribbon -->
+  <path d="M10 34C15 34 18 30 24 30C30 30 33 34 38 34" stroke="#9EB8B5" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Minimalist cabin / gable apex -->
+  <path d="M14 26L24 16L34 26" stroke="#FCFCF9" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Pohjantähti (Northern Star) -->
+  <path d="M24 7V13M24 10H21M24 10H27" stroke="#FCFCF9" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="24" cy="10" r="1" fill="#FCFCF9"/>
+</svg>
