@@ -26,16 +26,24 @@ A completely original, high-craft brand identity and comprehensive multi-page we
 #### Overview
 An extraordinary, tranquil, and scientifically grounded website and complete brand identity system for a specialist ketamine care institute. Engineered with editorial typography, architectural healthcare photography, and strict medical communications ethics.
 
+---
+
+### 3. SOLE WELLBEING — Clinical Foot Health & Home Visits
+**Live Website:** [https://sole-wellbeing.pages.dev](https://sole-wellbeing.pages.dev)  
+**Project Folder:** [`/sole-wellbeing`](./sole-wellbeing)  
+**Industry:** Healthcare / Clinical Foot Health, Podiatry & Domiciliary Care  
+**Design & Stack:** Next.js (App Router), TypeScript, Tailwind CSS, Lucide Icons, Cloudflare Pages
+
+#### Overview
+A modern, compassionate, and nurse-led clinical foot health practice website. Transforms routine podiatric care into a trustworthy digital experience, highlighting Cally’s 10+ years of NHS nursing experience, vacuum autoclaved sterilization, and dedicated mobile home visits.
+
 #### Key Capabilities & Features
-- **Original Brand System:** Custom symmetric harmonic node monogram (*concentric containment arcs + equilibrium focal point*), 7 logo configurations, vector SVG favicon, and warm editorial palette (Warm Ivory `#F7F5F0`, Soft White `#FFFFFF`, Deep Forest Green `#263D35`, Muted Sage `#A7B5A4`, Warm Stone `#E8E3D9`, Soft Taupe `#B6AA9C`, Charcoal `#292B28`).
-- **Complete 15-Route Information Architecture:** Homepage, About, Treatment Overview, Step-by-Step Care Journey, Preparation Guide, Patient Support & Integration, Patient Resource Centre, Clinician Referrals, Practice Approach, Multidisciplinary Team, Categorized FAQs, Practice Environment & Visit, Contact, Privacy Notice, and Terms of Demonstration.
-- **Interactive 5-Stage Patient Journey Explorer:** Detailed inspection of objectives, clinical oversight, duration, and patient safeguards across all five care phases.
-- **Interactive Pre-Consultation Checklist Tool:** Browser-memory checklist allowing prospective patients to organize prior treatments, doctor questions, and chaperone logistics with real-time completion tracking.
-- **Consultation Assessment Modal:** Site-wide accessible consultation inquiry interface with strict medical privacy disclaimers.
-- **Clinician Referral Enquiry Simulator:** Professional peer-to-peer inquiry portal for referring psychiatrists, primary physicians, and therapists.
-- **Searchable, Categorized FAQ Accordion Engine:** Instant live search and category switching with accessible accordion expansion.
-- **Clinical Data Governance Architecture:** Visual wireframe demonstrating the necessary decoupling between public marketing websites and certified EHR / PHI gateways with MFA.
-- **Emergency & Crisis Integration:** Prominently featured 988 Suicide & Crisis Lifeline banners and medical crisis disclaimers.
+- **Brand Identity & Aesthetic:** Custom organic arch & apex node logo mark, Deep Marine Teal (`#0A3B42`), Seafoam (`#4BA593`), Warm Alabaster (`#FBF9F5`), and editorial typography (*Fraunces* + *Plus Jakarta Sans*).
+- **Interactive Foot Symptom Checker & Triage Advisor:** Self-help tool categorizing 6 common foot complaints (corns, calluses, ingrown nails, diabetic checks, verrucae, cracked heels) with clinical procedures and urgency indicators.
+- **Dual Care Booking Modal:** Interactive appointment scheduling for both clinic suite visits and domiciliary mobile home visits with postcode validation.
+- **Dedicated Diabetic Foot Health Hub:** Neurovascular screening guide, 10g monofilament testing explanation, and red-flag diabetic foot warnings.
+- **Comprehensive Domiciliary Mobile Guide:** Complete overview of mobile equipment, infection control, and local community coverage radius.
+- **Searchable FAQ Accordions:** Real-time search and topic filter covering FHP credentials, corn removal pain levels, and hygiene standards.
 
 ---
 
@@ -51,12 +59,22 @@ Freelancing/
 │   ├── package.json
 │   ├── tailwind.config.ts
 │   └── tsconfig.json
-└── sunvalleyketamineclinic/        # VALENCE Clinical Specialist Ketamine Care
-    ├── app/                        # Next.js App Router (15 complete routes)
-    ├── components/                 # Reusable UI, logo system, interactive tools
-    ├── lib/                        # Image curation & clinical constants
-    ├── public/                     # Cloudflare headers, robots, favicons
-    ├── out/                        # Static export for Cloudflare Pages
+├── sunvalleyketamineclinic/        # VALENCE Clinical Specialist Ketamine Care
+│   ├── app/                        # Next.js App Router (15 complete routes)
+│   ├── components/                 # Reusable UI, logo system, interactive tools
+│   ├── lib/                        # Image curation & clinical constants
+│   ├── public/                     # Cloudflare headers, robots, favicons
+│   ├── out/                        # Static export for Cloudflare Pages
+│   ├── next.config.mjs
+│   ├── package.json
+│   ├── tailwind.config.ts
+│   └── tsconfig.json
+└── sole-wellbeing/                 # SOLE WELLBEING Nurse-Led Foot Care
+    ├── app/                        # Next.js App Router (10 complete routes)
+    ├── components/                 # Triage tool, booking modal, logo, navigation
+    ├── lib/                        # Image constants & clinical data
+    ├── public/                     # Headers, robots, SVG favicon
+    ├── out/                        # Static export deployed to Cloudflare Pages
     ├── next.config.mjs
     ├── package.json
     ├── tailwind.config.ts
