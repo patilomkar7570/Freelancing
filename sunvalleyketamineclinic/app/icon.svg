@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Rounded container background in Deep Forest Green -->
+  <rect width="64" height="64" rx="14" fill="#263D35"/>
+  <!-- Concentric subtle ring representing clinical containment -->
+  <circle cx="32" cy="32" r="22" stroke="#A7B5A4" stroke-width="1.2" stroke-opacity="0.35" stroke-dasharray="2 2" />
+  <!-- Symmetric Valence balanced arcs -->
+  <path d="M 18 20 C 22 28 26 38 32 44 C 38 38 42 28 46 20" stroke="#F7F5F0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Inner equilibrium curve -->
+  <path d="M 23 20 C 27 26 30 33 32 37 C 34 33 37 26 41 20" stroke="#A7B5A4" stroke-width="1.75" stroke-linecap="round"/>
+  <!-- Central harmonic focal point / balance node -->
+  <circle cx="32" cy="27" r="3" fill="#A7B5A4"/>
+  <circle cx="32" cy="27" r="1.2" fill="#263D35"/>
+</svg>
