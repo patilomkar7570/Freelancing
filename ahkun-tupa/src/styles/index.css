@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: light;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #F6F3EB;
+    color: #292C27;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background-color: #263E32;
+    color: #FDFCF8;
+  }
+}
+
+@layer utilities {
+  .font-serif-display {
+    font-family: 'Instrument Serif', 'Cormorant Garamond', Georgia, serif;
+  }
+  .font-serif-body {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  .font-mono-meta {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F6F3EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #DEDCD2;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #77786F;
+}

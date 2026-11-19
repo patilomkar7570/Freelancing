@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="10" fill="#263E32"/>
+  <!-- Lemmenjoki River flow -->
+  <path d="M8 35C14 35 18 31 24 31C30 31 34 35 40 35" stroke="#8DA8A9" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Traditional wooden riverboat silhouette (Nuoli jokivene) -->
+  <path d="M12 28C18 31 30 31 36 28L34 25C28 26.5 20 26.5 14 25L12 28Z" fill="#B58B69"/>
+  <!-- Spruce fell peak / cabin roofline -->
+  <path d="M16 23L24 13L32 23" stroke="#FDFCF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Northern Star / Gold flake accent -->
+  <path d="M24 6V11M24 8.5H21.5M24 8.5H26.5" stroke="#FDFCF8" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="24" cy="8.5" r="1" fill="#FDFCF8"/>
+</svg>
